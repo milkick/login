@@ -7,6 +7,7 @@
  */
 
 class UsersController extends AppController{
+
     
     public $components = array(
         'Auth' => array(

@@ -13,7 +13,13 @@ echo $this->Form->create('User', array(
 );
 echo $this->Form->input('user_name');
 echo $this->Form->input('user_password',array('type' => 'password'));
-echo $this->Form->end('ログイン');
+echo $this->Form->end(array(
+        'label' => 'ログイン',
+        'div' => false,
+        'class' => 'btn btn-success',
+        'style' => 'margin-top:3px'
+    )
+);
 ?>
 <p>
 <?php echo $this->Html->link('新規登録', array('controller' => 'users', 'action' => 'register'));  ?>
