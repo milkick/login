@@ -27,7 +27,7 @@ Our primary goal is to provide a structured framework that enables PHP users at 
 
 [CakeFest](http://cakefest.org) - Don't miss our annual CakePHP conference
 
-[Cake Software Foundation](http://cakefoundation.org) - Promoting development related to CakePHP
+[Cake Software Foundation](http://cakefoundation.org) - Promoting development related to CakePHP.
 
 
 ## Get Support!
