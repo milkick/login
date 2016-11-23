@@ -110,4 +110,4 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 CakePlugin::load(array('TwitterBootstrap'));
-require ROOT . DS . 'app' . DS . 'Vendor' . DS . 'PHPUnit' . 'autoload.php';
+require ROOT . DS . 'app' . DS . 'Vendor' . DS . 'PHPUnit' . DS . 'autoload.php';
