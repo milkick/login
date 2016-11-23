@@ -13,13 +13,13 @@ echo $this->Form->create('User', array(
 );
 echo $this->Form->input('user_name');
 echo $this->Form->input('user_password',array('type' => 'password'));
-//echo $this->Form->end(array(
-//        'label' => '登録',
-//        'div' => false,
-//        'class' => 'btn btn-success',
-//        'style' => 'margin-top:3px'
-//    )
-//);
+echo $this->Form->end(array(
+        'label' => '登録',
+        'div' => false,
+        'class' => 'btn btn-success',
+        'style' => 'margin-top:3px'
+    )
+);
 ?>
 
 <p>
