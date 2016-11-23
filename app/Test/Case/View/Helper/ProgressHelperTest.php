@@ -1,6 +1,7 @@
 <?php
 
 App::uses('Controller', 'Controller');
+App::uses('AppController', 'Controller');
 App::uses('View', 'View');
 App::uses('ProgressHelper', 'View/Helper');
 
